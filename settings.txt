@@ -1,0 +1,81 @@
+====================================================================
+프로젝트 설정                                
+====================================================================
+
+1) 프로젝트 생성
+$ npx nuxi@latest init beyond-career
+
+
+2) Type-checking
+$ npm install -D vue-tsc typescript
+
+export default defineNuxtConfig({
+  typescript: {
+    typeCheck: true
+  }
+})
+$ npx nuxi typecheck
+
+
+3) ESLint, Prettier 설정
+$ npm install --save @nuxt/eslint @vue/eslint-config-prettier
+$ npm install --save-dev prettier 
+
+export default defineNuxtConfig({
+  modules: [
+    '@nuxt/eslint'
+  ],
+  eslint: {
+    // options here
+  }
+})
+
+$ npm run dev
+
+프로젝트 루트에 'eslint.config.mjs', '.prettierrc.json' 파일 생성
+
+eslint.config.mjs 설정
+====================================================================
+import withNuxt from './.nuxt/eslint.config.mjs'
+import skipFormatting from '@vue/eslint-config-prettier/skip-formatting'
+
+export default withNuxt(
+  // Your custom configs here
+  {
+    rules: {
+      'no-console': 'warn',
+    },
+  },
+  skipFormatting,
+)
+
+.prettierrc.json 설정
+====================================================================
+{
+  "$schema": "https://json.schemastore.org/prettierrc",
+  "semi": false,
+  "singleQuote": true,
+  "arrowParens": "avoid",
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "printWidth": 80,
+  "bracketSpacing": true,
+  "endOfLine": "auto"
+}
+
+4) Headless UI 
+$ npm install @headlessui/vue
+
+5) Tailwind CSS (https://tailwindcss.com/docs/installation/framework-guides/nuxt)
+$ npm install tailwindcss @tailwindcss/vite
+
+import tailwindcss from "@tailwindcss/vite";
+export default defineNuxtConfig({
+  compatibilityDate: "2024-11-01",
+  devtools: { enabled: true },
+  vite: {
+    plugins: [
+      tailwindcss(),
+    ],
+  },
+});
