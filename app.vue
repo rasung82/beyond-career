@@ -5,5 +5,5 @@
 </template>
 
 <script setup lang="ts">
-console.log('App...')
+console.log('woors) App...');
 </script>
