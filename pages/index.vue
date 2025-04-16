@@ -4,6 +4,8 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+console.log('woors) Pages.index...');
+</script>
 
 <style scoped></style>
