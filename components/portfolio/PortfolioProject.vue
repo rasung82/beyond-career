@@ -8,7 +8,7 @@
           src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=600"
         />
         <div class="p-6">
-          <h3 class="text-xl font-semibold mb-4 text-gray-800">프로젝트 A</h3>
+          <h3 class="portfolio-pjt-subject">프로젝트 A</h3>
           <div class="space-x-2 mb-4">
             <span class="portfolio-pjt-span"> React </span>
             <span class="portfolio-pjt-span"> React </span>
@@ -26,7 +26,7 @@
           src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=600"
         />
         <div class="p-6">
-          <h3 class="text-xl font-semibold mb-4 text-gray-800">프로젝트 A</h3>
+          <h3 class="portfolio-pjt-subject">프로젝트 B</h3>
           <div class="space-x-2 mb-4">
             <span class="portfolio-pjt-span"> React </span>
             <span class="portfolio-pjt-span"> React </span>

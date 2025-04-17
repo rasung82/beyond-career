@@ -1,4 +1,6 @@
-@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 .portfolio-header {
   @apply container max-w-4xl mx-auto px-6 py-3 flex justify-between items-center;
@@ -7,36 +9,38 @@
   @apply hover:text-blue-600 transition-colors;
 }
 .portfolio-darkmode-btn {
-  @apply w-10 h-10 rounded-full bg-gray-200 hover:ring hover:ring-blue-600;
+  @apply w-10 h-10 rounded-full bg-gray-200 dark:bg-gray-700  hover:ring hover:ring-blue-600;
 }
 
 .portfolio-about-article {
-  @apply bg-gray-100 shadow-md rounded-lg p-6 hover:scale-105 transition-transform duration-300;
+  @apply bg-gray-100 dark:bg-gray-800 shadow-md rounded-lg p-6 hover:scale-105 transition-transform duration-300;
 }
 .portfolio-skill {
-  @apply flex flex-col items-center bg-gray-100 shadow-md rounded-lg p-4 hover:scale-105 transition-transform duration-300;
+  @apply flex flex-col items-center bg-gray-100 dark:bg-gray-800 shadow-md rounded-lg p-4 hover:scale-105 transition-transform duration-300;
 }
 
 .portfolio-pjt-article {
-  @apply bg-gray-100 rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300;
+  @apply bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300;
+}
+.portfolio-pjt-subject {
+  @apply text-xl font-semibold mb-4 text-gray-800 dark:text-gray-100;
 }
 .portfolio-pjt-span {
-  @apply rounded-md bg-gray-200 px-2 py-0.5 text-xs text-gray-700 border border-gray-300;
+  @apply rounded-md bg-gray-200 dark:bg-gray-700 px-2 py-0.5 text-xs text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600;
 }
 .portfolio-pjt-github {
-  @apply text-sm bg-gray-800 text-white px-3 py-1 rounded-md;
+  @apply text-sm bg-gray-800 dark:bg-gray-300 text-white dark:text-gray-800 px-3 py-1 rounded-md;
 }
 .portfolio-pjt-livedemo {
   @apply text-sm bg-blue-600 text-white px-3 py-1 rounded-md;
 }
 
 .portfolio-contact-input {
-  @apply w-full px-2 py-2 border rounded-md focus:outline-none focus:ring focus:ring-blue-500;
+  @apply dark:bg-gray-700 dark:border-gray-600 dark:text-white w-full px-2 py-2 border rounded-md focus:outline-none focus:ring focus:ring-blue-500;
 }
-
 .portfolio-contact-btn {
   @apply bg-blue-600 text-gray-100 px-6 py-2 rounded-md hover:bg-blue-500 transition-colors;
 }
 .portfolio-contact-a {
-  @apply flex items-center space-x-2 text-gray-600 hover:text-blue-500 transition-colors;
+  @apply flex items-center space-x-2 text-gray-600 dark:text-gray-300 hover:text-blue-500 transition-colors;
 }
