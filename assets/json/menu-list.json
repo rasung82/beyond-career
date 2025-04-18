@@ -1,0 +1,624 @@
+{
+  "adminMenuList": [
+    {
+      "adminMenuId": 1,
+      "adminMenuIdUpper": 0,
+      "adminMenuNm": "메인 관리",
+      "ordNo": 1,
+      "url": "",
+      "breadcrumb": " > 메인 관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 328,
+      "adminMenuIdUpper": 1,
+      "adminMenuNm": "데이터 홈 관리",
+      "ordNo": 2,
+      "url": "/p13n-lnb-home/list",
+      "breadcrumb": " > 메인 관리 > 데이터 홈 관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 48,
+      "adminMenuIdUpper": 1,
+      "adminMenuNm": "LNB 매장 관리",
+      "ordNo": 3,
+      "url": "/lnb/list",
+      "breadcrumb": " > 메인 관리 > LNB 매장 관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 541,
+      "adminMenuIdUpper": 1,
+      "adminMenuNm": "홈매장 스킨 관리",
+      "ordNo": 5,
+      "url": "",
+      "breadcrumb": " > 메인 관리 > 홈매장 스킨 관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 542,
+      "adminMenuIdUpper": 541,
+      "adminMenuNm": "기본 스킨 관리",
+      "ordNo": 1,
+      "url": "/home-shop-skin/list/0",
+      "breadcrumb": " > 메인 관리 > 홈매장 스킨 관리 > 기본 스킨 관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 543,
+      "adminMenuIdUpper": 541,
+      "adminMenuNm": "PGM별 스킨 관리",
+      "ordNo": 2,
+      "url": "/home-shop-skin/list/1",
+      "breadcrumb": " > 메인 관리 > 홈매장 스킨 관리 > PGM별 스킨 관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 288,
+      "adminMenuIdUpper": 1,
+      "adminMenuNm": "카테고리 관리",
+      "ordNo": 6,
+      "url": "/p13n-cat/list",
+      "breadcrumb": " > 메인 관리 > 카테고리 관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 267,
+      "adminMenuIdUpper": 1,
+      "adminMenuNm": "타이틀 관리",
+      "ordNo": 7,
+      "url": "/p13n/list",
+      "breadcrumb": " > 메인 관리 > 타이틀 관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 409,
+      "adminMenuIdUpper": 1,
+      "adminMenuNm": "카테고리 순서 관리",
+      "ordNo": 8,
+      "url": "/cat-skd/list",
+      "breadcrumb": " > 메인 관리 > 카테고리 순서 관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 546,
+      "adminMenuIdUpper": 1,
+      "adminMenuNm": "MLC-TV송출(버튼명)",
+      "ordNo": 10,
+      "url": "/home-order-btn/list",
+      "breadcrumb": " > 메인 관리 > MLC-TV송출(버튼명)",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 67,
+      "adminMenuIdUpper": 0,
+      "adminMenuNm": "배너관리",
+      "ordNo": 2,
+      "url": "",
+      "breadcrumb": " > 배너관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 89,
+      "adminMenuIdUpper": 67,
+      "adminMenuNm": "홈 와이드 배너 관리",
+      "ordNo": 3,
+      "url": "",
+      "breadcrumb": " > 배너관리 > 홈 와이드 배너 관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 528,
+      "adminMenuIdUpper": 89,
+      "adminMenuNm": "스토아ON전용배너",
+      "ordNo": 1,
+      "url": "/bnr-home-wd/list/0",
+      "breadcrumb": " > 배너관리 > 홈 와이드 배너 관리 > 스토아ON전용배너",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 529,
+      "adminMenuIdUpper": 89,
+      "adminMenuNm": "방송연동PGM배너",
+      "ordNo": 3,
+      "url": "/bnr-home-wd/list/1",
+      "breadcrumb": " > 배너관리 > 홈 와이드 배너 관리 > 방송연동PGM배너",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 538,
+      "adminMenuIdUpper": 89,
+      "adminMenuNm": "소셜보드 설정",
+      "ordNo": 5,
+      "url": "/bnr-home-wd/social-board-list",
+      "breadcrumb": " > 배너관리 > 홈 와이드 배너 관리 > 소셜보드 설정",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 545,
+      "adminMenuIdUpper": 89,
+      "adminMenuNm": "모바일 페어링 배너",
+      "ordNo": 6,
+      "url": "/bnr-t2m/list",
+      "breadcrumb": " > 배너관리 > 홈 와이드 배너 관리 > 모바일 페어링 배너",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 87,
+      "adminMenuIdUpper": 67,
+      "adminMenuNm": "검색배너관리",
+      "ordNo": 5,
+      "url": "/bnr-srch/list",
+      "breadcrumb": " > 배너관리 > 검색배너관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 147,
+      "adminMenuIdUpper": 67,
+      "adminMenuNm": "제한셋톱배너(1.0전용)",
+      "ordNo": 7,
+      "url": "/bnr-lmt/list",
+      "breadcrumb": " > 배너관리 > 제한셋톱배너(1.0전용)",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 513,
+      "adminMenuIdUpper": 67,
+      "adminMenuNm": "프로모션 배너 관리",
+      "ordNo": 8,
+      "url": "",
+      "breadcrumb": " > 배너관리 > 프로모션 배너 관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 522,
+      "adminMenuIdUpper": 513,
+      "adminMenuNm": "오늘의TV/세로형",
+      "ordNo": 1,
+      "url": "/bnr-prm/list",
+      "breadcrumb": " > 배너관리 > 프로모션 배너 관리 > 오늘의TV/세로형",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 187,
+      "adminMenuIdUpper": 0,
+      "adminMenuNm": "매장 관리",
+      "ordNo": 3,
+      "url": "",
+      "breadcrumb": " > 매장 관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 189,
+      "adminMenuIdUpper": 187,
+      "adminMenuNm": "세로형",
+      "ordNo": 2,
+      "url": "",
+      "breadcrumb": " > 매장 관리 > 세로형",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 199,
+      "adminMenuIdUpper": 189,
+      "adminMenuNm": "공통스킨",
+      "ordNo": 1,
+      "url": "/shop-skin/list",
+      "breadcrumb": " > 매장 관리 > 세로형 > 공통스킨",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 517,
+      "adminMenuIdUpper": 189,
+      "adminMenuNm": "세로형(혼합형2탄)",
+      "ordNo": 6,
+      "url": "/shop/list/288",
+      "breadcrumb": " > 매장 관리 > 세로형 > 세로형(혼합형2탄)",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 191,
+      "adminMenuIdUpper": 187,
+      "adminMenuNm": "리뷰형",
+      "ordNo": 5,
+      "url": "",
+      "breadcrumb": " > 매장 관리 > 리뷰형",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 204,
+      "adminMenuIdUpper": 191,
+      "adminMenuNm": "신상품",
+      "ordNo": 1,
+      "url": "/shop/list/8",
+      "breadcrumb": " > 매장 관리 > 리뷰형 > 신상품",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 192,
+      "adminMenuIdUpper": 187,
+      "adminMenuNm": "랭킹형",
+      "ordNo": 6,
+      "url": "",
+      "breadcrumb": " > 매장 관리 > 랭킹형",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 205,
+      "adminMenuIdUpper": 192,
+      "adminMenuNm": "주간베스트",
+      "ordNo": 1,
+      "url": "/shop/list/1",
+      "breadcrumb": " > 매장 관리 > 랭킹형 > 주간베스트",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 347,
+      "adminMenuIdUpper": 187,
+      "adminMenuNm": "라이브형",
+      "ordNo": 7,
+      "url": "",
+      "breadcrumb": " > 매장 관리 > 라이브형",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 348,
+      "adminMenuIdUpper": 347,
+      "adminMenuNm": "쇼핑 라이브(2.0전용)",
+      "ordNo": 1,
+      "url": "/shop/list/121",
+      "breadcrumb": " > 매장 관리 > 라이브형 > 쇼핑 라이브(2.0전용)",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 521,
+      "adminMenuIdUpper": 347,
+      "adminMenuNm": "매장 우선순위 관리",
+      "ordNo": 2,
+      "url": "/shop/live-order",
+      "breadcrumb": " > 매장 관리 > 라이브형 > 매장 우선순위 관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 547,
+      "adminMenuIdUpper": 347,
+      "adminMenuNm": "혜택 배너 관리",
+      "ordNo": 3,
+      "url": "/bnr-benefit/list",
+      "breadcrumb": " > 매장 관리 > 라이브형 > 혜택 배너 관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 195,
+      "adminMenuIdUpper": 187,
+      "adminMenuNm": "뉴이벤트",
+      "ordNo": 9,
+      "url": "",
+      "breadcrumb": " > 매장 관리 > 뉴이벤트",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 507,
+      "adminMenuIdUpper": 195,
+      "adminMenuNm": "타임특가",
+      "ordNo": 6,
+      "url": "/shop/list/281",
+      "breadcrumb": " > 매장 관리 > 뉴이벤트 > 타임특가",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 524,
+      "adminMenuIdUpper": 195,
+      "adminMenuNm": "시크릿특가 폐쇄몰",
+      "ordNo": 8,
+      "url": "/shop/list/293",
+      "breadcrumb": " > 매장 관리 > 뉴이벤트 > 시크릿특가 폐쇄몰",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 407,
+      "adminMenuIdUpper": 187,
+      "adminMenuNm": "제휴형",
+      "ordNo": 11,
+      "url": "",
+      "breadcrumb": " > 매장 관리 > 제휴형",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 510,
+      "adminMenuIdUpper": 407,
+      "adminMenuNm": "응모 제한형",
+      "ordNo": 3,
+      "url": "/shop/list/283",
+      "breadcrumb": " > 매장 관리 > 제휴형 > 응모 제한형",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 519,
+      "adminMenuIdUpper": 407,
+      "adminMenuNm": "응모 무제한형",
+      "ordNo": 4,
+      "url": "/shop/list/291",
+      "breadcrumb": " > 매장 관리 > 제휴형 > 응모 무제한형",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 487,
+      "adminMenuIdUpper": 187,
+      "adminMenuNm": "광고형",
+      "ordNo": 12,
+      "url": "",
+      "breadcrumb": " > 매장 관리 > 광고형",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 488,
+      "adminMenuIdUpper": 487,
+      "adminMenuNm": "기본",
+      "ordNo": 1,
+      "url": "/shop/list/261",
+      "breadcrumb": " > 매장 관리 > 광고형 > 기본",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 530,
+      "adminMenuIdUpper": 187,
+      "adminMenuNm": "카테고리",
+      "ordNo": 15,
+      "url": "/shop/list/296",
+      "breadcrumb": " > 매장 관리 > 카테고리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 7,
+      "adminMenuIdUpper": 0,
+      "adminMenuNm": "게시판 관리",
+      "ordNo": 8,
+      "url": "",
+      "breadcrumb": " > 게시판 관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 23,
+      "adminMenuIdUpper": 7,
+      "adminMenuNm": "공지사항",
+      "ordNo": 1,
+      "url": "/board/list/NOTICE",
+      "breadcrumb": " > 게시판 관리 > 공지사항",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 24,
+      "adminMenuIdUpper": 7,
+      "adminMenuNm": "이용안내",
+      "ordNo": 2,
+      "url": "/board/list/GUIDE",
+      "breadcrumb": " > 게시판 관리 > 이용안내",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 25,
+      "adminMenuIdUpper": 7,
+      "adminMenuNm": "자주하는 질문",
+      "ordNo": 3,
+      "url": "/board/list/FAQ",
+      "breadcrumb": " > 게시판 관리 > 자주하는 질문",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 26,
+      "adminMenuIdUpper": 7,
+      "adminMenuNm": "이용약관",
+      "ordNo": 4,
+      "url": "/board/list/TERMS",
+      "breadcrumb": " > 게시판 관리 > 이용약관",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 27,
+      "adminMenuIdUpper": 7,
+      "adminMenuNm": "개인정보처리방침",
+      "ordNo": 5,
+      "url": "/board/list/PRIVACY",
+      "breadcrumb": " > 게시판 관리 > 개인정보처리방침",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 550,
+      "adminMenuIdUpper": 7,
+      "adminMenuNm": "이벤트 관리",
+      "ordNo": 6,
+      "url": "/event/list",
+      "breadcrumb": " > 게시판 관리 > 이벤트 관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 8,
+      "adminMenuIdUpper": 0,
+      "adminMenuNm": "플랫폼 관리",
+      "ordNo": 9,
+      "url": "",
+      "breadcrumb": " > 플랫폼 관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 28,
+      "adminMenuIdUpper": 8,
+      "adminMenuNm": "플랫폼별 관리",
+      "ordNo": 1,
+      "url": "/platform/list",
+      "breadcrumb": " > 플랫폼 관리 > 플랫폼별 관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 515,
+      "adminMenuIdUpper": 8,
+      "adminMenuNm": "화면비율변경",
+      "ordNo": 2,
+      "url": "/platform/screen-rate-list",
+      "breadcrumb": " > 플랫폼 관리 > 화면비율변경",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 537,
+      "adminMenuIdUpper": 8,
+      "adminMenuNm": "QRcode 짧은 url 설정",
+      "ordNo": 3,
+      "url": "/platform/qrcode-short-url-setting",
+      "breadcrumb": " > 플랫폼 관리 > QRcode 짧은 url 설정",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 10,
+      "adminMenuIdUpper": 0,
+      "adminMenuNm": "관리자 관리",
+      "ordNo": 10,
+      "url": "",
+      "breadcrumb": " > 관리자 관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 47,
+      "adminMenuIdUpper": 10,
+      "adminMenuNm": "메뉴 관리",
+      "ordNo": 1,
+      "url": "/admin/adminMenuList",
+      "breadcrumb": " > 관리자 관리 > 메뉴 관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 38,
+      "adminMenuIdUpper": 10,
+      "adminMenuNm": "관리자 관리",
+      "ordNo": 2,
+      "url": "/admin/adminList",
+      "breadcrumb": " > 관리자 관리 > 관리자 관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 39,
+      "adminMenuIdUpper": 10,
+      "adminMenuNm": "관리자 그룹 관리",
+      "ordNo": 3,
+      "url": "/admin/adminAuthGrpList",
+      "breadcrumb": " > 관리자 관리 > 관리자 그룹 관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 307,
+      "adminMenuIdUpper": 10,
+      "adminMenuNm": "매장메타",
+      "ordNo": 4,
+      "url": "/shop-meta/list",
+      "breadcrumb": " > 관리자 관리 > 매장메타",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 534,
+      "adminMenuIdUpper": 0,
+      "adminMenuNm": "챗핑 관리",
+      "ordNo": 12,
+      "url": "",
+      "breadcrumb": " > 챗핑 관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 535,
+      "adminMenuIdUpper": 534,
+      "adminMenuNm": "서비스 관리",
+      "ordNo": 1,
+      "url": "/chatping/list",
+      "breadcrumb": " > 챗핑 관리 > 서비스 관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 536,
+      "adminMenuIdUpper": 534,
+      "adminMenuNm": "제공메뉴 관리",
+      "ordNo": 2,
+      "url": "/chatping-grp/list",
+      "breadcrumb": " > 챗핑 관리 > 제공메뉴 관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 548,
+      "adminMenuIdUpper": 0,
+      "adminMenuNm": "모바일 페어링 관리",
+      "ordNo": 13,
+      "url": "",
+      "breadcrumb": " > 모바일 페어링 관리",
+      "viewYn": 0,
+      "subMenuList": null
+    },
+    {
+      "adminMenuId": 549,
+      "adminMenuIdUpper": 548,
+      "adminMenuNm": "시청 시간형",
+      "ordNo": 1,
+      "url": "/mob-fair/list/WATCH_TM",
+      "breadcrumb": " > 모바일 페어링 관리 > 시청 시간형",
+      "viewYn": 0,
+      "subMenuList": null
+    }
+  ]
+}

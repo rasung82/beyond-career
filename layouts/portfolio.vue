@@ -42,10 +42,8 @@
 <script setup lang="ts">
 console.log('woors) Layout.portfolio...');
 
-/**
- * TODOs: 상태 관리를 사용하여 다크 모드 관리
- */
-const darkMode = useState<boolean>('darkMode', () => false);
+// 상태 관리(useState)를 사용하여 다크 모드 관리
+const darkMode = useState<boolean>('darkMode', () => true);
 const handleDarkMode = () => {
   console.log('woors) handleDarkMode...');
   darkMode.value = !darkMode.value;
