@@ -10,7 +10,7 @@
       <font-awesome-icon
         v-if="props.menu?.iconClass"
         :icon="menuIcon"
-        class="w-8 mr-1"
+        class="mr-1 w-8"
       />
       <span>{{ props.menu?.adminMenuNm }}</span>
       <font-awesome-icon
@@ -20,7 +20,7 @@
       />
     </li>
     <ul v-if="subMenus?.length" class="menu-child">
-      <NavMenuItem
+      <AdminMenuItem
         v-for="item in subMenus"
         :key="item?.adminMenuId"
         :menu="item"
@@ -59,10 +59,10 @@ const menuIcon = computed(() => `fa-solid ${props?.menu?.iconClass}`);
 }
 
 .menu-common {
-  @apply hover:bg-gray-700 rounded-xl transition-colors duration-200 flex items-center;
+  @apply flex items-center rounded-xl transition-colors duration-200 hover:bg-gray-700;
 }
 .nav-sup-menu {
-  @apply px-4 py-2.5 mb-2;
+  @apply mb-2 px-4 py-2.5;
 }
 .nav-sub-menu {
   @apply px-4 py-2.5;

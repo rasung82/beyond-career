@@ -1,11 +1,11 @@
 <template>
-  <aside class="bg-gray-800 w-72 text-white px-2 py-7 space-y-6">
-    <div class="px-4 mb-6">
+  <aside class="w-64 space-y-6 bg-gray-800 px-2 py-7 text-white">
+    <div class="mb-6 px-4">
       <h3 class="text-2xl font-semibold">대시보드</h3>
     </div>
     <nav>
       <ul>
-        <NavMenuItem
+        <AdminMenuItem
           v-for="item in supMenus"
           :key="item.adminMenuId"
           :menu="item"
@@ -18,7 +18,7 @@
 </template>
 
 <script setup lang="ts">
-import NavMenuItem from './NavMenuItem.vue';
+import AdminMenuItem from './AdminMenuItem.vue';
 const { adminMenus: supMenus } = useAdminSupMenus();
 
 console.log('woors) Components.NavMenu...', supMenus);
