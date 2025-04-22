@@ -12,3 +12,23 @@ export const useAdminMenus = (): AdminMenuReturn => {
     adminMenus,
   };
 };
+
+export const useAdminSupMenus = (): AdminMenuReturn => {
+  const adminMenus = adminMenuData?.filter(
+    (menu: AdminMenu) => menu?.adminMenuIdUpper === 0,
+  );
+
+  return {
+    adminMenus,
+  };
+};
+
+export const useAdminSubMenus = (menu: AdminMenu): AdminMenuReturn => {
+  const adminMenus = adminMenuData?.filter(
+    (item: AdminMenu) => item?.adminMenuIdUpper === menu?.adminMenuId,
+  );
+
+  return {
+    adminMenus,
+  };
+};
