@@ -1,7 +1,7 @@
 <template>
   <div :class="{ dark: darkMode }">
     <div
-      class="bg-white text-black dark:bg-gray-900 dark:text-white min-h-screen transition-colors duration-300"
+      class="min-h-screen bg-white text-black transition-colors duration-300 dark:bg-gray-900 dark:text-white"
     >
       <!-- Header -->
       <header class="sticky top-0 backdrop-blur-lg">
@@ -30,8 +30,8 @@
       <!-- Main -->
       <slot />
       <!-- Footer -->
-      <footer class="bg-gray-100 dark:bg-gray-800 py-6">
-        <div class="container max-w-4xl mx-auto px-6 text-center">
+      <footer class="bg-gray-100 py-6 dark:bg-gray-800">
+        <div class="container mx-auto max-w-4xl px-6 text-center">
           <p>&copy; 2025 XXX. All rights reserved.</p>
         </div>
       </footer>

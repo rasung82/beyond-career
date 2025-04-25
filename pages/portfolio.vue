@@ -1,6 +1,6 @@
 <template>
   <div>
-    <main class="container max-w-4xl mx-auto px-6 py-12">
+    <main class="container mx-auto max-w-4xl px-6 py-12">
       <!-- 홈 섹션 -->
       <PortfolioHome />
 
@@ -8,7 +8,7 @@
       <PortfolioAbout />
 
       <!-- 스킬 섹션 -->
-      <PortfolioSkills />
+      <PortfolioSkill />
 
       <!-- 프로젝트 섹션 -->
       <PortfolioProject />

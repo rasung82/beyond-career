@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-100">
+  <div>
     <!-- 레이아웃 파일에서 페이지의 내용은 <slot /> 컴포넌트에 표시됩니다. -->
     <slot />
   </div>

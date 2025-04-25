@@ -18,7 +18,7 @@
 </template>
 
 <script setup lang="ts">
-import AdminMenuItem from './AdminMenuItem.vue';
+import AdminMenuItem from './MenuItem.vue';
 const { adminMenus: supMenus } = useAdminSupMenus();
 
 console.log('woors) Components.NavMenu...', supMenus);

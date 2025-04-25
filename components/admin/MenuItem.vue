@@ -5,7 +5,7 @@
         'menu-common w-full',
         hasChild ? 'nav-sub-menu' : 'nav-sup-menu',
       ]"
-      @click="() => (flag = !flag)"
+      @click="handleClick"
     >
       <font-awesome-icon
         v-if="props.menu?.iconClass"
@@ -39,23 +39,34 @@ const props = defineProps<{
   depth: number;
   hasChild?: boolean;
 }>();
+const router = useRouter();
 
 const flag = ref(false);
 
 const { adminMenus: subMenus } = useAdminSubMenus(props.menu);
 
 const menuIcon = computed(() => `fa-solid ${props?.menu?.iconClass}`);
+
+const handleClick = () => {
+  console.log('woors) handleClick...', subMenus, props.menu?.url);
+
+  if (props.menu?.url !== '') {
+    router.push(`/admin${props.menu?.url}`);
+  } else {
+    flag.value = !flag.value;
+  }
+};
 </script>
 
 <style scoped>
-.menu-child {
-  display: none;
-}
 .menu-parent.open > .menu-child {
   display: block;
 }
 .menu-parent .menu-child {
   margin-left: calc(1.5rem * var(--depth, 1));
+}
+.menu-child {
+  display: none;
 }
 
 .menu-common {
