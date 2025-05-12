@@ -1,11 +1,21 @@
 <template>
-  <div>
-    <h3>Hello, Nuxt3</h3>
+  <div class="flex h-screen items-center justify-center">
+    <h3 class="text-2xl font-bold">Beyond Career</h3>
   </div>
 </template>
 
 <script setup lang="ts">
-console.log('woors) Pages.index...');
+const { isAuthenticate } = useAuthUser();
+
+definePageMeta({
+  middleware: () => {
+    if (!isAuthenticate.value) {
+      return navigateTo('/login');
+    }
+  },
+});
+
+console.log('woors) Pages.index...', isAuthenticate.value);
 </script>
 
 <style scoped></style>
